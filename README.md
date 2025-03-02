@@ -73,7 +73,7 @@ and we will execute the following command;
 Here in line 23 in retrieveData.cpp, we need to alter the portname to the one that our device is using,
 in my case it was '/dev/tty.usbmodem11101', as shown below:
 ```md
-![alt text](assets/images/portname_temperature.png)
+![alt text](assets/images/port_temperature.png)
 ```
 
 In the 'api' directory, you will follow src/app/models and find models.py, in this file you will find 
@@ -81,7 +81,7 @@ a base model for creating an object 'TemperatureData', that will be the template
 to be uploaded to the database:
 
 ```md
-![alt text](images/Database_model_temperature.png)
+![alt text](assets/images/Database_model_temperature.png)
 ```
 
 This specifys that the table is called 'tempdata', but it could be different depending what
@@ -91,7 +91,7 @@ you decide to name yours.
 
 By the end of these instructions you should have a site that looks like this:
 ```md
-![alt text](assets/images/final_product_temperature.png)
+![alt text](assets/images/site_temperature.png)
 ```
 
 
