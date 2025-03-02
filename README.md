@@ -81,7 +81,7 @@ a base model for creating an object 'TemperatureData', that will be the template
 to be uploaded to the database:
 
 ```md
-![alt text](assets/images/database_model_temperature.png)
+![alt text](images/Database_model_temperature.png)
 ```
 
 This specifys that the table is called 'tempdata', but it could be different depending what
