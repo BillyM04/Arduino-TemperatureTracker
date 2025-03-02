@@ -1,5 +1,11 @@
 #include <Arduino.h>
 
+/*
+  This script is to simulate temperature data, it can be modified to 
+  display data on a 7 seg display and use a push button to alter the 
+  state of 'doorOpen'
+*/
+
 int tempReading = A0;
 int button = 2;
 int lastUpdate = 0;
@@ -90,13 +96,3 @@ void loop() {
   Serial.println("\r\n");
   delay(5000);
 }
-
-  // if(Serial.available() > 0 && (doorOpen == true || doorOpen == false)){
-  //   Serial.printf("\nTemperature: %1.2f\tDoor status: %s\n", temp_data.temp, (doorOpen ? "Open":"Closed"));
-  //   String dataIn = Serial.readStringUntil('\n');
-  //   Serial.print("Received: ");
-  //   Serial.println(dataIn);
-  // }
-  // else{
-  //   Serial.print("Data insufficient.\n");
-  // }
