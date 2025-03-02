@@ -23,17 +23,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-- First we need to clone the repository:
+First we need to clone the repository:
 ### Clone the repository
 
 #### Linux / macOS / Windows
 ```md
 git clone https://github.com/your-username/your-repository.git
 ```
-- The 'TempReadProj' directory is to be uploaded to an arduino, so that it can create dummy data, to simulate
+The 'TempReadProj' directory is to be uploaded to an arduino, so that it can create dummy data, to simulate
 temperature readings.
 
-- Next we need to install the all the dependencies for our project, to do this we'll download the requirements.txt file
+Next we need to install the all the dependencies for our project, to do this we'll download the requirements.txt file
 and we will execute the following command;
 #### Linux / macOS
 ```md
@@ -55,9 +55,9 @@ and we will execute the following command;
 
 
 ## Usage
-- You need to create a .env file in your api directory so you can manage your sensitive information,
-  such as your username, password etc.
-  You will have a url for your database of the form:
+You need to create a .env file in your api directory so you can manage your sensitive information,
+such as your username, password etc.
+You will have a url for your database of the form:
 ```md
   "postgresql://username:password@host:port/database_name"
 ```
