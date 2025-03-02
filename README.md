@@ -30,7 +30,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ```md
 git clone https://github.com/your-username/your-repository.git
 ```
-- The 'Arduino' directory is to be uploaded to an arduino, so that it can create dummy data, to simulate
+- The 'TempReadProj' directory is to be uploaded to an arduino, so that it can create dummy data, to simulate
 temperature readings.
 
 - Next we need to install the all the dependencies for our project, to do this we'll download the requirements.txt file
